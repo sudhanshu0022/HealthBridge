@@ -6,7 +6,7 @@ export const AppContext = createContext();
 
 const AppContextProvider = (props) => {
     const currencySymbol = '$';
-    const backendUrl = "http://localhost:4000"; // Local backend development server port
+    const backendUrl = "https://backend-pqmw.onrender.com"; // Local backend development server port
 
     const [doctors, setDoctors] = useState([]);
     const [token, setToken] = useState(localStorage.getItem('token') || '');
