@@ -1,0 +1,8 @@
+# Node dependencies
+node_modules/
+dist/
+.env
+
+# Local upload caches
+backend/uploads/*
+!backend/uploads/.gitkeep
